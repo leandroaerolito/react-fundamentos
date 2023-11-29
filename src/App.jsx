@@ -1,19 +1,12 @@
 // Comentário de uma linha CTRL; //
 /* Comentário de várias linhas ALT SHIFT A */
 
+import Cabecalho from "./cabecalho";
+
 function App() {
   return (
     <>
-      <header>
-        <h1>Olá React!</h1>
-        <hr />
-        <nav>
-          <a href="">Home</a>
-          <a href="">Produtos</a>
-          <a href="">Contato</a>
-        </nav>
-      </header>
-      {/*Comentário no meio do JS. É normal ficar entre {} nesta situação. */}
+      <Cabecalho />
       <main>
         <section>
           <h2>Conteúdo de aplicação</h2>
@@ -42,6 +35,7 @@ function App() {
           </article>
         </section>
       </main>
+
       <footer>
         <h2>Rodapé do aplicativo</h2>
       </footer>
