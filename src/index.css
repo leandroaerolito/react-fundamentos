@@ -34,3 +34,9 @@ body {
 }
 
 /* IMPORTANTE: nomear as classes com nomes simplificados. Não usar hífen. */
+
+.destaque-texto {
+  background-color: yellow;
+  padding: 4px;
+  border-radius: 4px;
+}
