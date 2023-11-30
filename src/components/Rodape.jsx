@@ -1,7 +1,7 @@
 function Rodape() {
   return (
     <footer>
-      <h2>Rodapé do aplicativo</h2>
+      <h2>Rodapé da aplicação</h2>
     </footer>
   );
 }

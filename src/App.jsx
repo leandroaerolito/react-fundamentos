@@ -1,17 +1,12 @@
-// Comentário de uma linha CTRL; //
-/* Comentário de várias linhas ALT SHIFT A */
-
+import Cabecalho from "./components/Cabecalho";
 import Conteudo from "./components/Conteudo";
 import Rodape from "./components/Rodape";
-import Cabecalho from "./components/Cabecalho";
 
 function App() {
   return (
     <>
       <Cabecalho />
-
       <Conteudo />
-
       <Rodape />
     </>
   );
